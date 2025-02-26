@@ -1,0 +1,49 @@
+/*@import url("//unpkg.com/element-ui@2.15.14/lib/theme-chalk/index.css");*/
+
+html,body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    /*background-color: #b4edf136;*/
+    
+}
+::-webkit-scrollbar-track-piece { 
+    background-color:#f8f8f8;
+}
+::-webkit-scrollbar {
+    width:2px;
+    height:2px;
+}
+::-webkit-scrollbar-thumb {
+    /*background-color:rgb(203, 234, 238);*/
+    background-clip:padding-box;
+    min-height:28px;
+}
+::-webkit-scrollbar-thumb:hover {
+    /*background-color:rgb(5, 248, 25);*/
+}
+#nav_type{
+    width: 12vw;
+    height: 93vh;
+    padding-left: 1vw;
+    position: fixed;
+    /* background: rgb(101, 223, 170); */
+    text-align: center;
+    line-height:0.6rem;
+    color: black;
+    top:6vh;
+    left:2vw;
+    overflow: auto;
+
+}
+#ins{
+    width: 82vw;
+    height: 84vh;
+    padding-left: 1vw;
+    margin-bottom: 25vh;
+    position: fixed;
+
+
+}
