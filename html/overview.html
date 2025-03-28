@@ -201,6 +201,12 @@ SERIAL_LOG = False  # code is in charge of recording serial log, avoid using put
     </div>
 
   </div>
+  <div class="app-footer">
+    <div class="copyright-container">
+      <span class="copyright">© - 2025 PATAC. All Rights Reserved.</span>
+    </div>
+  </div>
+
 </div>
 </body>
 
@@ -222,6 +228,21 @@ SERIAL_LOG = False  # code is in charge of recording serial log, avoid using put
     }
     return false; // 阻止事件冒泡和默认行为
   });
+
+
+  var now = new Date();
+  var year = now.getFullYear()
+  // var hours = now.getHours();
+  // var minutes = now.getMinutes();
+  // var seconds = now.getSeconds();
+  // console.log(hours + ":" + minutes + ":" + seconds);
+  $('.copyright').text(`© - ${year} PATAC. All Rights Reserved.`)
+  // const homepage_url = window.location.href
+  // console.log(homepage_url)
+  // sessionStorage.setItem("homepage_url",homepage_url)
+
+
+
 </script>
 
 <style>

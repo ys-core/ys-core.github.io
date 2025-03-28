@@ -24113,6 +24113,12 @@ wifi_manager.disconnect("MyWiFi")
 
     </div>
 
+    <div class="app-footer">
+        <div class="copyright-container">
+            <span class="copyright">© - 2025 PATAC. All Rights Reserved.</span>
+        </div>
+    </div>
+
 
 </div>
 
@@ -24194,6 +24200,12 @@ wifi_manager.disconnect("MyWiFi")
           console.error('滚动时发生错误:', error);
       }
   }
+
+
+  var now = new Date();
+  var year = now.getFullYear()
+  $('.copyright').text(`© - ${year} PATAC. All Rights Reserved.`)
+
 
 
 </script>

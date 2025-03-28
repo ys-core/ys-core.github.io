@@ -143,3 +143,14 @@ h5{
     padding-top: 10px;
     padding-bottom: 6px;
 }
+.app-footer{
+    height: 30px;
+    width: 100%;
+    background-color: #eeeeea;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
